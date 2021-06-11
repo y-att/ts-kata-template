@@ -18,6 +18,11 @@ Expected output:
 
 //pseudocode
 // function returnClosestMultiple10 (number)
+/**
+ * return closest multiple of ten
+ * @param  a input number
+ * @returns number
+ */
 function returnClosestMultiple10(a: number): number {
   //if (a < 5 || a[0] < 5)
 
