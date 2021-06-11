@@ -22,8 +22,8 @@ function returnClosestMultiple10(a: number): number {
   //if (a < 5 || a[0] < 5)
 
   //let closestMultiple : number = (a + 5)/10 * 10;  // closest integer to `a` that is divisible by `b`
-  let c1: number = a - (a % 10);
-  let c2: number = a + 10 - (a % 10);
+  const c1: number = a - (a % 10);
+  const c2: number = a + 10 - (a % 10);
   if (a - c1 > c2 - a) {
     return c2;
   } else {
